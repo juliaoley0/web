@@ -1,0 +1,53 @@
+.photo{
+    float:center;
+  }
+body {
+    background-color: rgb(190, 161, 238);
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+.content {
+    display:flex;  
+    justify-content:space-around;
+}
+.name{
+    text-align: center;
+}
+.right{
+    background-color: rgb(223, 244, 248);
+    font-weight: 600;
+    height: 600;
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.left{
+    background-color: rgb(223, 244, 248);
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.E-title{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.E-content{
+    text-align: center;
+}
+.J-content{
+padding-left: 10%;
+}
+.J-title{
+    border: 2px solid black;
+    text-align: center;
+}
+.C-title{
+    text-decoration: underline;
+    text-align: center;
+}
+
